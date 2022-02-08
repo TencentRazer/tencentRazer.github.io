@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>为我的设备获取SBOXM</title>
+
+<!--可无视-->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" href="css/demo.css" />
+
+
+<!--必要-->
+  <link rel="stylesheet" href="dist/styles/Vidage.css" />
+<!--[if IE]>
+	<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- Vidage sample structure -->
+	<div class="Vidage">
+		<div class="Vidage__image"></div>
+
+		<video id="VidageVideo" class="Vidage__video" preload="metadata" loop autoplay muted>
+			<source src="videos/bg.webm" type="video/webm">
+			<source src="http://sboxm.xyz/video/bg.mp4" type="video/mp4">
+		</video>
+
+		<div class="Vidage__backdrop"></div>
+	</div>
+
+	<!-- Demo container -->
+	<div class="container Intro">
+<h1>SBOXM</h1>
+<h2>只为更好的浏览体验</h2>
+<h3>你可以通过以下途径免费使用SBOXM</h3>
+<h3>电脑端：以Edge浏览器为例，打开浏览器设置找到“启动时”选项选择“打开一个或多个特定页面”，输入https://sboxm.gitee.io 或http://sboxm.xyz 保存即可</h3>
+<h3>安卓：以via浏览器为例，打开浏览器设置找到“通用”打开里面的“主页”选项选择“网页“，输入https://sboxm.gitee.io 或http://sboxm.xyz 保存即可</h3>
+<h3>苹果：以Safari浏览器为例，打开浏览器输入https://sboxm.gitee.io 或http://sboxm.xyz 然后点击浏览器下方的分享按钮，最后“添加到主屏幕”即可</h3>
+
+		<h3>没学会？<a href="twjc/index.htm" target="_blank">图文教程</a></h3>
+		
+	</div>
+
+<!-- Vidage init -->
+	<script src="dist/scripts/Vidage.min.js"></script>
+	<script>
+		new Vidage('#VidageVideo');
+	</script>
+<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto" src="music/1.mp3"> 你的浏览器版本太低，不支持audio标签 </audio>
+<style type="text/css"> audio{ display: none; } </style>
+</body>
+</html>
