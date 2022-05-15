@@ -1,50 +1,34 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>mylove</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-<style>
- #web_bg{
-  position:fixed;
-  top: 0;
-  left: 0;
-  width:100%;
-  height:100%;
-  min-width: 1000px;
-  z-index:-10;
-  zoom: 1;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-position: center 0;
-}
-</style>
-<style>
-.back{
-z-index: 1;
-position: absolute;   //div位置绝对定位
-}
-</style>
-</head>
-	<div id="web_bg" style="background-image:url(https://ae01.alicdn.com/kf/H40d8ab7643874f0b896d0b5ef1eaaa602.jpeg);"></div>
-<body>
-	<div class="back">
-		<iframe marginwidth="0" marginheight="0" frameborder="0" scrolling="no" src="https://3d-sboxm.vercel.app/" width="1520px" height="720px"></iframe>
-	</div>
-<ol>
-    <li><a style="font-family:arial;color:rgb(68, 0, 255);font-size:40px" href="https://v.qq.com/">腾讯视频</a></li>
-    <li><a style="font-family:arial;color:rgb(68, 0, 255);font-size:40px" href="https://www.bilibili.com/">哔哩哔哩</a></li>
-    <li><a style="font-family:arial;color:rgb(68, 0, 255);font-size:40px;" href="https://www.iqiyi.com/">爱奇艺</a></li>
-    <li><a style="font-family:arial;color:rgb(68, 0, 255);font-size:40px;" href="https://www.youku.com/">优酷</a></li>
-    </ol>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mylove</title>
+        <link rel="stylesheet" type="text/css" href="./mod.css">     <!--调用CSS-->
+    </head>
 
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <body><!--java script-->
+        <!--看板娘-->
+        <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+        <!--光标特效-->      
+        <script src="https://blog-static.cnblogs.com/files/axqa/cursor-effects.js"></script>    <!--点击烟花-->
+    </body>
 
-	<div style="float:right;text-align:right"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1924290605&auto=1&height=66"></iframe>
-</body>
+    <!--背景图片-->
+    <div id="web_bg" style="background-image:url(https://ae01.alicdn.com/kf/H40d8ab7643874f0b896d0b5ef1eaaa602.jpeg);"></div>
+    <!--背景音乐-->
+    <div>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=1903035009&auto=1&height=32"></iframe>
+    </div>
+    <!--导航-->
+    <div class="header">
+        <nav>
+        <a class="headerlink" href="https://baidu.com">百度</a>
+        <a class="headerlink" href="https://baidu.com">百度</a>
+        <a class="headerlink" href="https://baidu.com">百度</a>
+        </nav>
+    </div>
+    <!--模块一-->
+    <div class="mainthird">
+
+    </div>
 </html>
